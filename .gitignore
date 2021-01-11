@@ -1,3 +1,4 @@
 *.un~
 *.py~
 /bunk-inator-slides_*
+/__pycache__
