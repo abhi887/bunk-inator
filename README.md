@@ -7,7 +7,7 @@ A smart screen capture cli application
 ### How to run
 - download or `git clone` this repository
 - `cd bunk-inator`
-- `python -m install -r requirements.txt`
+- `python -m pip install -r requirements.txt`
 - `python main.py`
 
 ### How it works 
