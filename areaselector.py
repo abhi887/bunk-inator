@@ -42,7 +42,7 @@ class areaSelector:
         self.areaStartY=self.root.winfo_y()+8
         self.areaWidth=self.root.winfo_width()+(96*(math.ceil(self.root.winfo_width()/480)))
         self.areaHeight=self.root.winfo_height()+(29*(math.floor(self.root.winfo_height()/75)))
-
+        
     def getCaptureArea(self):
         '''for fetching cordinates in bunk-inator'''
         return({

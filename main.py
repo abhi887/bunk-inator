@@ -32,7 +32,7 @@ def main():
     global slideCount,directoryName
     
     if slideCount > 1:
-        newSlide = ImageGrab.grab(bbox=slideArea)
+        newSlide = ImageGrab.grab(bbox=slideArea,all_screens=True)
     
     # session and 1st iteration setup
     if slideCount == 1:
@@ -58,7 +58,7 @@ def main():
         print("\n[!] press ctrl + c to stop ")
 
         # capture and store initial slide/frame/screenshot
-        newSlide = ImageGrab.grab(bbox=slideArea)
+        newSlide = ImageGrab.grab(bbox=slideArea,all_screens=True)
         newSlide.save(f"{directoryName}\{slideCount}.png")
         statusMsg = f"\r\b[+] {slideCount} slides Captured ..."
         print(statusMsg + (38-len(statusMsg))*" ",end="")
