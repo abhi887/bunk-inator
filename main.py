@@ -114,6 +114,9 @@ while True:
     try:
         main()
         time.sleep(frequency)
+    except SystemError:
+        print("\n[!] Selected capture area size is too small, please select a larger area and try again")
+        exit(2)
     except:
         print(f"\n[*] Total {slideCount-1} slides Saved [*]")
         exit(1)
