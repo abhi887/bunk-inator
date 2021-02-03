@@ -1,6 +1,10 @@
 # bunk-inator
 A smart screen capture cli application
 
+## bunk-inator in action 🎥
+
+<img src="screenshots/bunkinatorScreenCapture.gif" alt="bunkinator screen capture">
+
 ### Requirements
 - [Python](https://python.org)
 
